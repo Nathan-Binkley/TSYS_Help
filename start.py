@@ -3,8 +3,9 @@ import time
 import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
+
 # create an instance of the API class
-api_instance = swagger_client.ONETIMEPAYMENTApi()
+api_instance = swagger_client.ONETIMEPAYMENTApi() # issue here
 confirmation_number = 'confirmation_number_example' # str | Payment reference number. The number is returned when the payment is successfully added. Format: 999-99-99.
 delete_request = swagger_client.PaymentDeleteRequest() # PaymentDeleteRequest | deleteRequest
 
